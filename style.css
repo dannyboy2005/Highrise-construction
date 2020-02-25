@@ -1,37 +1,40 @@
-@import url('https://fonts.googleapis.com/css?family=Mukta');
+@import url("https://fonts.googleapis.com/css?family=Mukta");
 
-body, html {
+body,
+html {
   height: 100%;
   margin: 0;
   font-size: 18px;
-  font-family: 'Mukta', sans-serif;
+  font-family: "Mukta", sans-serif;
   font-weight: 500;
   line-height: 1.8em;
   color: #666;
 }
 
-.pimg1, .pimg2, .pimg3 {
+.pimg1,
+.pimg2,
+.pimg3 {
   position: relative;
   opacity: 0.85;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-/* Fixed == parallax and scroll == normal*/
+  /* Fixed == parallax and scroll == normal*/
   background-attachment: fixed;
 }
 
 .pimg1 {
-  background-image: url('https://images.unsplash.com/photo-1506598417715-e3c191368ac0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60');
+  background-image: url("https://images.unsplash.com/photo-1506598417715-e3c191368ac0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60");
   min-height: 100%;
 }
 
 .pimg2 {
-  background-image: url('https://images.unsplash.com/photo-1509356843151-3e7d96241e11?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60');
+  background-image: url("https://images.unsplash.com/photo-1509356843151-3e7d96241e11?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60");
   min-height: 400px;
 }
 
 .pimg3 {
-  background-image: url('https://images.unsplash.com/photo-1517140660730-555d93ca5f60?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60');
+  background-image: url("https://images.unsplash.com/photo-1517140660730-555d93ca5f60?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60");
   min-height: 400px;
 }
 
@@ -71,11 +74,13 @@ body, html {
 }
 
 .ptext .border.trans {
-  background-color:transparent;
+  background-color: transparent;
 }
 
-@media (max-width:568px){
-  .pimg1, .pimg2, .pimg3 {
+@media (max-width: 568px) {
+  .pimg1,
+  .pimg2,
+  .pimg3 {
     background-attachment: scroll;
   }
 }
